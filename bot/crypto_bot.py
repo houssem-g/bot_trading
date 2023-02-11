@@ -221,7 +221,7 @@ if __name__ == '__main__':  # If it's executed like a script (not imported)
                         "DSHUSD": {"action":"", "temps" : datetime.datetime.now()}, "BNBUSD": {"action":"", "temps" : datetime.datetime.now()},
                         "ONTUSD": {"action":"", "temps" : datetime.datetime.now()}, "NEOUSD": {"action":"", "temps" : datetime.datetime.now()}}
     # lastPairGagnante = {"EURUSD-OTC": {"action":"", "temps" : datetime.datetime.now()}, "USDCHF-OTC": {"action":"", "temps" : datetime.datetime.now()}}
-    getMethod= MyBot(iq, "hemodisbalkiss@gmail.com","schweppes91", lastPairGagnante)
+    getMethod= MyBot(iq, "*********@gmail.com","******", lastPairGagnante)
     enterTrade = True
     # getMethod.loopPrediction() 
     while enterTrade == True:
